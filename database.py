@@ -7,8 +7,7 @@ from sqlalchemy.orm import sessionmaker
 load_dotenv()
 
 #Get database url from environment
-db_url= os.getenv("DATABASE_URL") #"postgresql://rama:Kanishka$123456@localhost:5432/fastapi_db"
-
+db_url= os.getenv("DATABASE_URL") 
 # Create engine
 engine = create_engine(db_url)
 
